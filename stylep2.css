@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'open sans';
+    box-sizing: border-box;
+ }
+#body
+{
+    overflow: hidden;
+}
+html, body
+{
+    width:100%;
+    height:100%;
+}
+#nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height:60px;
+    padding: 30px 160px;
+}
+#nav h1
+{
+     font-family: 'Yellowtail', cursive;
+     font-size:40px;
+     letter-spacing: 5px;
+}
+.nav2 a
+{
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(160, 160, 159);
+}
+.blue
+{
+    color: rgb(33, 69, 117);
+}
+.nav2 a>i
+{
+    
+    align-items: center;
+    font-size: 5px;
+}
+.vl 
+{
+  border-left: 2.5px solid  rgb(160, 160, 159);
+  height: 16px;
+  margin-left:10px;
+}
+#nav i
+{
+    font-size: 17px;
+    margin-left: 5px;
+    color: rgb(160, 160, 159);
+}
+#navr i
+{
+    font-size: 15px;
+    margin-left: 20px;
+
+} 
+#screen
+{
+  width: 100%;
+  height:100%;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+#img1
+{
+  width:39.5%;
+  height:100%;
+  background-position:center;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1581081874974-bfef6bc65d52?ixid=MXwxMjA3fDB8MHxzZWFyY2h8ODN8fGFydHxlbnwwfDJ8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+}
+#img2
+{
+    width:59.5%;
+    height:100%;
+    background-image: url(https://cutewallpaper.org/21/wallpaper-arts/Best-56+-Art-Wallpapers-on-HipWallpaper-Funny-Art-.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#img1 .square
+{
+    position: absolute;
+    top:85.5%;
+    width: 330px;
+    height: 140px;
+    background-color:white;
+}
+#img1 i
+{
+    position: absolute;
+    font-size: 80px;
+    top:50%;
+    opacity: 0.8;
+    left:95%;
+    color: rgb(255, 255, 255);
+}
+#img2 .overlay
+{
+    width:100%;
+    height:100%;
+    background-color:rgba(0, 0, 0, 0.561) ;
+}
+.square h4
+{
+    width:80%;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Antic Slab', serif;
+    font-size:20px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.vl 
+{
+    
+    align-items: center;
+}
+#navr 
+{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+#end
+{
+    display:flex;
+    width:100%;
+    height:50%;
+    background-color: rgb(8, 8, 8);
+}
+#end1
+{   
+    padding: 80px 90px;
+    width: 30%;
+    height:60%;
+}
+#end1 h3
+{
+    font-size: 30px;
+    color: rgb(33, 69, 117);
+    font-family: 'Antic Slab', serif;
+
+}
+#end1 p
+{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 12px;
+    word-spacing: 3px;
+    color: rgb(255, 255, 255);
+}
+#end1 h4
+{
+    margin-top: 15px;
+    font-size: 20px;
+    color: rgb(33, 69, 117);
+    font-family: 'Antic Slab', serif;
+}
+
+#end2
+{
+    padding: 80px 90px;
+    width: 30%;
+    height:100%;
+}
+#links
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+}
+
+#end2 h3
+{
+    font-size: 30px;
+    color: rgb(33, 69, 117);
+    font-family: 'Antic Slab', serif;
+}
+#end2 a
+{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 25px;
+    color: white;
+}
+#end3
+{
+    padding: 80px 90px;
+    width: 30%;
+    height:100%;
+}
+#links1
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 15px;
+}
+#end3 a
+{
+    display:inline-block;
+    text-decoration: none;
+    line-height: 25px;
+    color: white;
+}
+#end3 h3
+{
+    font-size: 30px;
+    color: rgb(33, 69, 117);
+    font-family: 'Antic Slab', serif;
+}
+#end4
+{
+    position: relative;
+    padding: 80px 90px;
+    width:30%;
+    height:100%;
+}
+#end4 h3
+{
+    font-size: 20px;
+    color: rgb(33, 69, 117);
+    font-family: 'Antic Slab', serif;
+}
+#end4 #input
+{
+  margin-top: 20px;
+  width:100%;
+  position: relative;
+}
+#end4 #input i
+{
+  position: absolute;
+  left:10%;
+  top: 53%;
+  font-size: 12px;
+  transform: translate(0,-50%);
+  align-items: center;
+}
+#end4 input
+{
+  width : 100%;
+  height: 30px;
+  padding: 12px 40px;
+  outline: none;
+  border-radius: 6px;
+  border: 1px solid white;
+}
+#end4 i
+{
+  font-size: 15px;
+  color: black;
+}
+#gallery
+{
+    padding-top: 30px;
+}
+#gallery1
+{
+    display: flex;
+    width: 100%;
+    height:350px;
+}
+#gallery>h1
+{
+    margin-left: 43%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-family: 'Antic Slab', serif;
+    color: rgb(33, 69, 117);
+}
+#gallery1 i
+{
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 15px;
+
+}
+#gallery1 #g1
+{
+    margin-top: 80px;
+    margin-left: 20px;
+    width:200px;
+    height:200px;
+    background-image: url(https://media.mutualart.com/Images/Home/slideexhib.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+#gallery1 #g2
+{
+    margin-top: 80px;
+    margin-left: 50px;
+    width:200px;
+    height:200px;
+    background-image: url(https://images4.alphacoders.com/955/95578.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
+}
+#gallery1 #g3
+{
+    margin-top: 80px;
+    margin-left: 50px;
+    width:200px;
+    height:200px;
+    background-image: url(https://www.voicesofyouth.org/sites/voy/files/images/2020-05/covid_19_-_the_right_way_ditikalayakashyap.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+#gallery1 #g4
+{
+    margin-top: 80px;
+    margin-left: 50px;
+    width:200px;
+    height:200px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Van_Gogh_-_Country_road_in_Provence_by_night.jpg/220px-Van_Gogh_-_Country_road_in_Provence_by_night.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+}
+#gallery1 #g5
+{
+    margin-top: 80px;
+    margin-left: 50px;
+    width:200px;
+    height:200px;
+    border-radius: 5px;
+    background-image: url(https://i.icanvas.com/home/square/hp-june-2020-VIN468.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#icons i{
+    margin-top: 20px;
+    color: white;
+    margin-right: 15px;
+
+}
